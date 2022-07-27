@@ -1,5 +1,5 @@
     query_insert_matricula = """ INSERT INTO matricula (id, id_aluno, id_turma)
-                                         VALUES ((10,1,1),(11,2,3),(12,1,3))"""
+                                         VALUES (10,1,1),(11,2,3),(12,1,3)"""
 
             query_insert_turma = """INSERT INTO turma (id , nome, turno, id_disciplina)
                                         VALUES ((1, 'Geografia ', 'Matutino', 2011), 
